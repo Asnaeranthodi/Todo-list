@@ -1,0 +1,19 @@
+# Ignore target build artifacts
+target
+*.jar
+
+# Maven local repo (don’t accidentally copy ~/.m2)
+/root/.m2
+
+# IDE/editor settings
+*.iml
+.idea/
+.vscode/
+
+# Git-related
+.git
+.gitignore
+
+# OS files
+.DS_Store
+Thumbs.db
